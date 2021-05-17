@@ -7,15 +7,35 @@
   pointer-events: none;
 }
 
+.list-container{
+  width: 80%;
+  margin-inline: auto;
+}
+
+.list {
+  width: 100%;
+}
+
+.list .item{
+
+  margin-block: 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
